@@ -6,6 +6,8 @@
   "client": [
     "ClientPlayNetworkHandlerMixin",
     "SplashTextResourceSupplierMixin",
+    "blahaj.BipedEntityModelMixin",
+    "blahaj.PlayerEntityRendererMixin",
     "fix.mavapi.EntityBucketItemMixin"
   ],
   "injectors": {
