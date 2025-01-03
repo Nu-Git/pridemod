@@ -5,8 +5,7 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "LivingEntityMixin",
-    "PaintingVariantsMixin",
-    "AllayEntityMixin"
+    "PaintingVariantsMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -2,7 +2,6 @@ package gay.pridecraft.joy.item;
 
 import gay.pridecraft.joy.Joy;
 import gay.pridecraft.joy.registry.JoyBlocks;
-import gay.pridecraft.joy.block.BlahajBlocks;
 import gay.pridecraft.joy.registry.JoyItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.block.Blocks;
@@ -71,21 +70,6 @@ public class ModItemGroups {
                         entries.add(JoyItems.TREE_SPAWN_EGG);
                         entries.add(JoyItems.FROG_SPAWN_EGG);
                         entries.add(JoyItems.SNIFFER_SPAWN_EGG);
-
-                    }).build());
-    public static final ItemGroup HAJS =  Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(Joy.MOD_ID, "hajs"),FabricItemGroup.builder().displayName(Text.translatable("itemgroup.hajs_group"))
-                    .icon(() -> new ItemStack(BlahajBlocks.BLAHAJ_BLOCK)).entries((displayContext, entries) -> {
-
-                        entries.add(BlahajBlocks.GRAY_SHARK_ITEM);
-                        entries.add(BlahajBlocks.BLAHAJ_ITEM);
-                        entries.add(BlahajBlocks.BLAVINGAD_ITEM);
-                        entries.add(BlahajBlocks.BREAD_ITEM);
-                        entries.add(BlahajBlocks.BROWN_BEAR_ITEM);
-
-                      /*for (Item item : PRIDE_ITEMS) {
-                            entries.add(BlahajBlocks.item);         To anyone who feels like figuring this out, pls do i give up
-                        } */
 
                     }).build());
 

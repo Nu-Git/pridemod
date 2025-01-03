@@ -4,9 +4,7 @@
   "package": "gay.pridecraft.joy.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "BipedEntityModelMixin",
     "ClientPlayNetworkHandlerMixin",
-    "PlayerEntityRendererMixin",
     "SplashTextResourceSupplierMixin",
     "fix.mavapi.EntityBucketItemMixin"
   ],
